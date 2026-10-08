@@ -1,0 +1,16 @@
+{
+  "status": "synthetic_smoke_only", "backend": "tiny",
+  "channels": 3, "d_model": 24, "layers": 2, "heads": 4,
+  "patch_length": 8, "patch_stride": 8, "fusion_hidden": 48, "nan_hidden": 16,
+  "ts_rank": 4, "ts_alpha": 8, "llm_rank": 4, "llm_alpha": 8, "lora_dropout": 0.0,
+  "ts_checkpoint": null, "freeze_ts": false,
+  "epochs": 2, "batch_size": 6, "micro_batch_size": 6,
+  "learning_rate": 0.001, "min_learning_rate": 0.00001, "warmup_ratio": 0.05,
+  "weight_decay": 0.01, "tau": 0.07, "redundancy_eta": 1.0,
+  "lambda_rdn": 0.5, "lambda_syn": 1.0, "lambda_fm": 0.1,
+  "lambda_consistency": 0.5, "lambda_generation": 1.0,
+  "ode_steps": 2, "filter_size": 9, "text_max_length": 128,
+  "report_max_length": 96, "max_new_tokens": 64,
+  "gradient_checkpointing": false, "dtype": "float32", "quantization": "none",
+  "ablation": "full", "seed": 42, "device": "cpu", "num_threads": 2
+}

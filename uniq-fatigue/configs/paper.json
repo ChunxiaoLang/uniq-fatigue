@@ -1,0 +1,17 @@
+{
+  "status": "independent_reconstruction_not_author_code",
+  "backend": "hf", "model_id": "Qwen/Qwen2.5-14B-Instruct", "model_lock": "models.lock.json",
+  "channels": 5, "d_model": 512, "layers": 8, "heads": 8,
+  "patch_length": 10, "patch_stride": 10, "fusion_hidden": 1024, "nan_hidden": 256,
+  "ts_rank": 8, "ts_alpha": 16, "llm_rank": 16, "llm_alpha": 32, "lora_dropout": 0.05,
+  "ts_checkpoint": null, "freeze_ts": false,
+  "epochs": 50, "batch_size": 16, "micro_batch_size": 1,
+  "learning_rate": 0.0002, "min_learning_rate": 0.000001, "warmup_ratio": 0.05,
+  "weight_decay": 0.01, "tau": 0.07, "redundancy_eta": 1.0,
+  "lambda_rdn": 0.5, "lambda_syn": 1.0, "lambda_fm": 0.1,
+  "lambda_consistency": 0.5, "lambda_generation": 1.0,
+  "ode_steps": 10, "filter_size": 9, "text_max_length": 512,
+  "report_max_length": 192, "max_new_tokens": 192,
+  "gradient_checkpointing": true, "dtype": "bfloat16", "quantization": "none",
+  "ablation": "full", "seed": 42, "device": "cuda", "num_threads": 4
+}

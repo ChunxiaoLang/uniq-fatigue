@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-06",
+  "status": "independent implementation validated on synthetic/tiny fixtures",
+  "unit_tests_passed": 17,
+  "unit_test_exit_code": 0,
+  "same_seed_parameters_exact": true,
+  "same_seed_prediction_bytes_exact": {
+    "none": true,
+    "sensor": true,
+    "text": true,
+    "dual25": true
+  },
+  "seed": 42,
+  "samples": 72,
+  "split_counts": {
+    "train": 36,
+    "val": 12,
+    "test": 24
+  },
+  "versions": {
+    "torch": "2.5.1+cpu",
+    "numpy": "2.3.5",
+    "transformers": "4.48.3",
+    "peft": "0.14.0",
+    "accelerate": "1.3.0",
+    "huggingface-hub": "0.28.1",
+    "safetensors": "0.5.2",
+    "tokenizers": "0.21.0"
+  },
+  "paper_results_verified": false,
+  "real_data_training_verified": false,
+  "pretrained_qwen14b_training_verified": false,
+  "pretrained_bertscore_verified": false,
+  "full_requirements_environment_verified": false,
+  "classification_smoke": {
+    "none": {
+      "n": 24,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "kappa": 0.0,
+      "quadratic_kappa_extra": 0.0,
+      "per_class_precision": [
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      "per_class_recall": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "per_class_f1": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "support": [
+        8,
+        8,
+        8
+      ],
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ]
+      ],
+      "macro_f1_policy": "fixed labels [0,1,2], absent classes score zero",
+      "macro_f1_subject_bootstrap_ci95": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "bootstrap_seed": 42,
+      "repeats": 1000,
+      "subjects": 2,
+      "data_sha256": "de3327b4b6a40e95486a00885c8743dbe121c3bfa61919288a5dc12b6e93f60e",
+      "predictions_sha256": "ab39482107c3c4c79e01512f4e3155cf9043b3856f1c8a2ef3b9a0fc73077f0b",
+      "scope": "new measured result, not a paper-verified number"
+    },
+    "sensor": {
+      "n": 24,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "kappa": 0.0,
+      "quadratic_kappa_extra": 0.0,
+      "per_class_precision": [
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      "per_class_recall": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "per_class_f1": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "support": [
+        8,
+        8,
+        8
+      ],
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ]
+      ],
+      "macro_f1_policy": "fixed labels [0,1,2], absent classes score zero",
+      "macro_f1_subject_bootstrap_ci95": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "bootstrap_seed": 42,
+      "repeats": 1000,
+      "subjects": 2,
+      "data_sha256": "de3327b4b6a40e95486a00885c8743dbe121c3bfa61919288a5dc12b6e93f60e",
+      "predictions_sha256": "7111ab7781f0b27ca7f0d98490744621b17faf05537fc835982d79e7aa422f07",
+      "scope": "new measured result, not a paper-verified number"
+    },
+    "text": {
+      "n": 24,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "kappa": 0.0,
+      "quadratic_kappa_extra": 0.0,
+      "per_class_precision": [
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      "per_class_recall": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "per_class_f1": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "support": [
+        8,
+        8,
+        8
+      ],
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ]
+      ],
+      "macro_f1_policy": "fixed labels [0,1,2], absent classes score zero",
+      "macro_f1_subject_bootstrap_ci95": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "bootstrap_seed": 42,
+      "repeats": 1000,
+      "subjects": 2,
+      "data_sha256": "de3327b4b6a40e95486a00885c8743dbe121c3bfa61919288a5dc12b6e93f60e",
+      "predictions_sha256": "e4e0f5913b56251b6917e8cf587f93a503e76f21731387ee27e7fd71d6b588c2",
+      "scope": "new measured result, not a paper-verified number"
+    },
+    "dual25": {
+      "n": 24,
+      "accuracy": 0.3333333333333333,
+      "macro_f1": 0.16666666666666666,
+      "kappa": 0.0,
+      "quadratic_kappa_extra": 0.0,
+      "per_class_precision": [
+        0.3333333333333333,
+        0.0,
+        0.0
+      ],
+      "per_class_recall": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "per_class_f1": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "support": [
+        8,
+        8,
+        8
+      ],
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          8,
+          0,
+          0
+        ]
+      ],
+      "macro_f1_policy": "fixed labels [0,1,2], absent classes score zero",
+      "macro_f1_subject_bootstrap_ci95": [
+        0.16666666666666666,
+        0.16666666666666666
+      ],
+      "bootstrap_seed": 42,
+      "repeats": 1000,
+      "subjects": 2,
+      "data_sha256": "de3327b4b6a40e95486a00885c8743dbe121c3bfa61919288a5dc12b6e93f60e",
+      "predictions_sha256": "1816593b62d3f125d8d4eaa8198eb979d8d8dca0b20a7c998543c85a73481429",
+      "scope": "new measured result, not a paper-verified number"
+    }
+  }
+}
